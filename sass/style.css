@@ -297,4 +297,19 @@ main .karusel_item-btn {
 }
 .footer_adress-text {
   padding-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .footer_nav p {
+    font-size: 16px;
+  }
+  .footer_nav-link {
+    font-size: 16px;
+  }
+  .footer_logo-text {
+    font-size: 16px;
+  }
+  .footer_adress {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
