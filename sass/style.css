@@ -246,4 +246,55 @@ main .karusel_item-btn {
   width: 168px;
   height: 51px;
   background-color: #8d7641;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2d2d2f;
+  height: 430px;
+}
+.footer_nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer_nav p {
+  text-decoration: none;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #d6d0d0;
+  padding: 36px 0 10px 0;
+}
+.footer_nav-link {
+  text-decoration: none;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #d6d0d0;
+  padding-top: 10px;
+}
+.footer_logo-text {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #d6d0d0;
+  padding: 36px 11px 11px 0;
+}
+.footer_logo-img {
+  padding-top: 20px;
+}
+.footer_adress {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #d6d0d0;
+  margin-top: 36px;
+}
+.footer_adress-text {
+  padding-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
