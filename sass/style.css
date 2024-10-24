@@ -89,15 +89,161 @@ main .karusel_item-btn {
   padding: 14px 21px;
   background-color: #8d7641;
 }
-main .kategoriy_title {
+
+.title {
   margin-top: -5px;
-  padding-top: 60px;
+  padding-top: 102px;
   font-family: DisketMono;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   color: #242324;
+  margin-bottom: 60px;
 }
-main .kategoriy_item {
-  margin-top: 30px;
+
+.kategoriy {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+}
+.kategoriy_item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: url(../img/shoes.png) center center/cover no-repeat;
+}
+.kategoriy_item1-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item1-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
+}
+.kategoriy_item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: url(../img/Component37.png) center center/cover no-repeat;
+}
+.kategoriy_item2-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item2-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
+}
+.kategoriy_item3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background: url("../img/Component 42.png") center center/cover no-repeat;
+}
+.kategoriy_item3-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item3-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
+}
+.kategoriy_item4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: url("../img/Component 44.png") center center/cover no-repeat;
+}
+.kategoriy_item4-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item4-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
+}
+.kategoriy_item5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: url("../img/IMAGE 1.png") center center/cover no-repeat;
+}
+.kategoriy_item5-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item5-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
+}
+.kategoriy_item6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background: url("../img/Component 41.png") center center/cover no-repeat;
+}
+.kategoriy_item6-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item6-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
+}
+.kategoriy_item7 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background: url("../img/Component 46.png") center center/cover no-repeat;
+}
+.kategoriy_item7-desc {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+.kategoriy_item7-btn {
+  width: 168px;
+  height: 51px;
+  background-color: #8d7641;
 }/*# sourceMappingURL=style.css.map */
