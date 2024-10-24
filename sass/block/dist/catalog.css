@@ -36,3 +36,15 @@ main .karusel_item-btn {
   padding: 14px 21px;
   background-color: #8d7641;
 }
+main .kategoriy_title {
+  margin-top: -5px;
+  padding-top: 60px;
+  font-family: DisketMono;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #242324;
+}
+main .kategoriy_item {
+  margin-top: 30px;
+}
