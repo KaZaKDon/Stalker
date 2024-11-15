@@ -137,9 +137,43 @@ function getSomeElements() {
     .catch(error => console.error('Ошибка при загрузке товаров:', error));
 }
 
-getSomeElements();
+//getSomeElements();
 
-addBtn.addEventListener('click', getSomeElements)
+//addBtn.addEventListener('click', getSomeElements)
 
-const catalog1 = document.querySelector("#mil");
-const catalog11 = document.querySelector("#mil1");
+document.querySelector(".catalog_item-btn").addEventListener('click', () => {
+  fetch('https://fakestoreapi.com/products/1',{
+    method:"DELETE"
+})
+    .then(response=>response.json())
+    .then(json=>console.log(json))
+})
+.catch(error => console.error('Ошибка при удалении товара:', error));
+
+getSomeElements()
+
+addBtn.addEventListener('click', () => getSomeElements())
+function renderProductsFiltr() {
+  document.querySelectorAll(".catalog_item").forEach(e => e.remove());
+  fetch('https://fakestoreapi.com/products/category/jewelery')
+            .then(res=>res.json())
+            .then(json=> console.log(json))
+
+  for (let value of products) {
+    let obj = value
+    console.log(obj)
+      const newElem = document.createElement("div");
+        newElem.innerHTML = `
+          <div class="catalog_item-title">${obj["title"]}</div>
+          <img class="catalog_item-img" src="${obj["image"]}" alt="card" width="250px", height="300px">
+          <div class="catalog_item-category">${obj["category"]}</div>
+          <div class="catalog_item-price">${obj["price"]}$</div>
+          <button class="catalog_item-btn">Удалить товар</button>
+        `;
+    newElem.classList.add("catalog_item");
+    catalog.after(newElem);
+  };
+}
+
+renderProductsFiltr()
+
