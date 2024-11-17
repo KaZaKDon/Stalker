@@ -108,13 +108,14 @@ main .karusel_item-btn {
   padding: 14px 21px;
   background-color: #8d7641;
 }
-main .baza {
+main .baza_add {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
 }
-main .baza .catalog0 {
-  display: none;
+main .baza_add-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #8d7641;
 }
 main .baza .catalog_item {
   width: 300px;
@@ -151,14 +152,10 @@ main .baza .catalog_item-btn {
   height: 30px;
   background-color: #8d7641;
 }
-main .baza_add {
+main .catalog_list {
   display: flex;
   justify-content: space-around;
-}
-main .baza_add-btn {
-  width: 150px;
-  height: 50px;
-  background-color: #8d7641;
+  flex-wrap: wrap;
 }
 
 .title {
